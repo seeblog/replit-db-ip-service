@@ -1,0 +1,34 @@
+{
+  "name": "replit-db-ip-service",
+  "version": "1.0.0",
+  "description": "DB-IP威胁等级查询服务 - 运行在Replit平台",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "db-ip",
+    "ip-threat-analysis",
+    "replit",
+    "express",
+    "api-service"
+  ],
+  "author": "IP Quality Platform Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-repo/replit-db-ip-service"
+  }
+}
